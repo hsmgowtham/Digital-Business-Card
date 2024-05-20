@@ -27,7 +27,8 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #4e4e4e;
+  /* background-color: #f0f0f0; */
   height: 100vh;
 }
 
@@ -35,10 +36,15 @@ main{
   padding: 0px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(42 42 42);
+  color: #fff;
   height: 100%;
   width: 90%; /* Responsive width */
   max-width: 500px; /* Maximum width */
   text-align: center;
+}
+div#hero-img {
+  padding: 20px 0px;
 }
 .profile-pic{
   width: 100%;
