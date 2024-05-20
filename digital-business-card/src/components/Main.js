@@ -6,6 +6,7 @@ import profile_pic from '../profile.png';
 export default function Main() {
     return (
         <main>
+            <i class="fa-solid fa-circle-half-stroke"></i>
             <div id='hero-img'>
                 <img src={profile_pic} alt='Profile' className='profile-pic' />
             </div>

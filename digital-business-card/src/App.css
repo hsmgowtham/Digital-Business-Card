@@ -27,16 +27,18 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4e4e4e;
-  /* background-color: #f0f0f0; */
   height: 100vh;
+  background-color: rgb(32, 32, 32);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent); /* Gradient effect */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 main{  
   padding: 0px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: rgb(42 42 42);
+  background-color: rgb(32 32 32);
   color: #fff;
   height: 100%;
   width: 90%; /* Responsive width */
