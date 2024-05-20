@@ -37,7 +37,7 @@ export default function Main() {
                     <a href='https://www.github.com/hsmgowtham'>github.com/hsmgowtham</a><br /><br />
 
                     <i class="fa-solid fa-location-dot"></i>
-                    <a href='https://maps.app.goo.gl/o7pVTZndpMLb12P69'>Cincinnati, Ohio, The USA</a><br /><br />
+                    <a href='https://maps.app.goo.gl/o7pVTZndpMLb12P69'>Cincinnati, Ohio, USA</a><br /><br />
 
 
                 </div>
