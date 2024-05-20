@@ -19,38 +19,78 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 i {
   padding: 0px 10px;
 }
+
 /* Overall Page CSS */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 100vh;
   background-color: rgb(32, 32, 32);
   background-image: linear-gradient(45deg, rgb(54 54 54 / 10%) 25%, transparent 25%, transparent 50%, rgb(55 55 55 / 10%) 50%, rgb(55 55 55 / 10%) 75%, transparent 75%, transparent);
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
-main{  
+main {
   padding: 0px 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: rgb(32 32 32);
   color: #fff;
   height: 100%;
-  width: 90%; /* Responsive width */
-  max-width: 500px; /* Maximum width */
+  width: 90%;
+  /* Responsive width */
+  max-width: 450px;
+  /* Maximum width */
   text-align: left;
 }
+
 div#hero-img {
   padding: 20px 0px;
 }
-.profile-pic{
+
+.profile-pic {
   width: 100%;
 }
-.contact{
+
+.contact {
   text-align: left;
+}
+
+.metallic-button {
+  background-color: rgb(54, 54, 54);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.metallic-button:hover {
+  background-color: rgba(54, 54, 54, 0.8);
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+/* Media query for smaller screens, e.g., mobile devices */
+@media screen and (max-width: 768px) {
+  .container {
+    height: 100%;
+  }
+
+  main {
+    max-width: 400px;
+  }
 }
