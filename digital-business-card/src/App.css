@@ -67,6 +67,9 @@ div#hero-img {
   background-color: rgb(54, 54, 54);
   color: #fff;
   border: none;
+  max-width: 125px;
+  text-align: center;
+  width: 100%;
   padding: 10px 20px;
   margin: 0px 10px;
   border-radius: 5px;
